@@ -1,0 +1,17 @@
+.navBar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.navList{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-evenly;
+color:#0c1753 ;   
+font-family: Quicksand;
+font-size: 30px;
+font-weight: bolder;
+}
