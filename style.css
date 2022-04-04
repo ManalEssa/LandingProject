@@ -1,17 +1,49 @@
-.navBar{
-    background: white;
-    display: flex;
-    justify-content: space-between;
-
-    
+.navBar {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
-.navList{
-    display: flex;
-    list-style: none;
-    width: 500px;
-    justify-content: space-evenly;
-color:#0c1753 ;   
-font-family: Quicksand;
-font-size: 30px;
-font-weight: bolder;
+.navList {
+  display: flex;
+  list-style: none;
+  width: 500px;
+  justify-content: space-evenly;
+  color: #0c1753;
+  font-family: Quicksand;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.firstPart {
+  font-family: Quicksand;
+  font-size: xx-large;
+  font-weight: 900;
+  display: flex;
+  background: #9375ff;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.firstPartImg {
+  margin: 8%;
+  max-width: 50%;
+}
+.btnMore{
+  background: #ffe101;
+  width:10em;
+  height:2em;
+  border-radius: 15%;
+  margin-left: 30%;
+  margin-top: 10%;
+  font-size: 40px;
+
+}
+p{
+  margin-left: 10%;
+
+}
+h1{
+  margin-left: 10%;
+
 }
