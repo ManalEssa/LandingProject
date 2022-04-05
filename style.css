@@ -3,12 +3,14 @@
   
 
 }
+/* for the navabar picture and list*/
 .navBar {
   background: white;
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
+/* list in navbar*/
 .navList {
   display: flex;
   list-style: none;
@@ -19,29 +21,31 @@
   font-size: 30px;
   font-weight: bold;
 }
-
+/* for the header picture & texst*/
 .firstPart {
- 
   font-family: Quicksand;
   font-size: x-large;
   font-weight: 900;
   display: flex;
-  background: #9375ff;
-  align-items: center;
+  background: linear-gradient(0deg,#9375ff,#796aba);
+    align-items: center;
   justify-content: space-between;
   color: white;
 }
+/* all header text*/
 .textfirstPart{
   display: flex;
 flex-direction: column;
   
 
 }
+/* header image*/
 .firstPartImg {
   margin: 8%;
   max-width: 50%;
   display: flex;
 }
+/* button image*/
 .btnMore{
   background: #ffe101;
   width:7em;
@@ -58,7 +62,85 @@ p{
   margin-left: 10%;
 
 }
-h1{
+/* margin header */
+
+.firstHeader{
   margin-left: 10%;
 
 }
+.servicesHeader{
+  color:#00a69c ;
+  font-family: Quicksand;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.UXImg{
+  background: #ffe101;
+ margin-top:10% ;
+ border-radius: 50%;
+  max-width: 30%
+  
+}
+.designImg{
+  background: #ffe101;
+  margin-top:10% ;
+  border-radius: 50%;
+   max-width: 30%
+}
+.supportImg{
+  background: #ffe101;
+  margin-top:10% ;
+  border-radius: 50%;
+   max-width: 30%
+}
+
+.cardsContainer{
+background: #fcebfa;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 6% 10% 6% 10%;
+}
+
