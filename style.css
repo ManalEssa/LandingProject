@@ -2,23 +2,24 @@ body {
   margin: 0%;
 }
 .logoImg {
-  width: 200px;
+  width: 250px;
+  height: 80px;
+  align-self: center;
 }
 /* for the navabar picture and list*/
 .navBar {
   background: white;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  
 }
 /* list in navbar*/
 .navList {
   display: flex;
   list-style: none;
   width: 400px;
-  justify-content: flex-end;
-  margin-right: 10px;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 20px;
   color: #0c1753;
   font-family: Quicksand;
   font-size: 30px;
@@ -26,13 +27,14 @@ body {
 }
 /* for the header picture & texst*/
 .firstPart {
+  margin: 0%;
   font-family: Quicksand;
   font-size: x-large;
   font-weight: 900;
   display: flex;
   background: linear-gradient(0deg, rgba(205,192,251,1) 0%, rgba(65,54,108,0.835171568627451) 50%);
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
 }
 /* all header text*/
@@ -49,8 +51,8 @@ body {
 /* button */
 .btnMore {
   background: #ffe101;
-  width: 7em;
-  height: 2em;
+  width: 200px;
+  height:80px;
   border-radius: 10px;
   margin-left: 30%;
   margin-top: 10%;
@@ -86,16 +88,18 @@ p {
 }
 
 .backgroundImg {
- 
+ width: 200px;
+ height: 200px;
   background: #ffe101;
   border-radius: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 5%;
 }
 .CardsImg {
   margin: 10%;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 
@@ -123,15 +127,24 @@ gap: 100px;
   flex-direction: row-reverse;
   align-items: center;
 }
-
-form{
+.contactForm{
+  display: flex;
+  justify-content: space-around;
   background: #0c1753;
   font-family: Quicksand;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+input , textarea {
+  width: 90%;
+  margin: 10px;
+  height: 30px;
+}
+textarea{
+  height: 200px;
+}
+
 .formLabels{
 margin: 2% 2% 2% 5%;
 
@@ -148,9 +161,21 @@ footer{
   align-items: center;
 
 }
-@media screen {
+@media screen and (max-width: 600px) {
   .firstPart {
     flex-direction: column-reverse;
+    font-size: medium;
+    margin: 0%;
+  }
+  .btnMore {
+    font-size: 20px;
+    width: 100px;
+    height:50px;
+
+  }
+  .servicesHeader{
+    font-size: large;
+
   }
   .cardsContainer {
     flex-direction: column;
@@ -159,13 +184,20 @@ footer{
     width: 50%;
     margin-bottom: 20px;
   }
-  .logotImg {
-    width: 50px;
+  .backgroundImg {
+    width: 60%;
+    height: 60%;
+
+
+   }
+  .logoImg {
+    width: 120px;
+    height:60px; 
+ align-self: center;
   }
-  .navList {
-    font-size: 20px;
-  }
-  @media screen and (max-width: 600px){
+
+ 
+  
 .picWithtxt{
   margin: 10%;
 display: flex;
@@ -186,18 +218,14 @@ gap: 70px;
 
 }
 .navList {
-  display: flex;
+  gap: 8px;
   flex-direction: column;
-  list-style: none;
-  width: 400px;
-  justify-content: flex-end;
-  margin-right: 10px;
-  gap: 10px;
-  color: #0c1753;
-  font-family: Quicksand;
   font-size: 10%;
-  font-weight: bold;
+  margin: 5% 0% 5% 20%;
 }
+
+  .contactForm{
+    flex-direction: column;
   }
 
 
