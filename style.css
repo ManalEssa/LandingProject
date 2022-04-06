@@ -30,7 +30,7 @@ body {
   font-size: x-large;
   font-weight: 900;
   display: flex;
-  background: linear-gradient(0deg, #9375ff, #796aba);
+  background: linear-gradient(0deg, rgba(205,192,251,1) 0%, rgba(65,54,108,0.835171568627451) 50%);
   align-items: center;
   justify-content: space-between;
   color: white;
@@ -46,7 +46,7 @@ body {
   max-width: 50%;
   display: flex;
 }
-/* button image*/
+/* button */
 .btnMore {
   background: #ffe101;
   width: 7em;
@@ -58,6 +58,8 @@ body {
   color: #00a69c;
   font-weight: bold;
   font-family: Quicksand;
+  margin: 10%;
+  align-self: center;
 }
 p {
   margin-left: 10%;
@@ -91,18 +93,11 @@ p {
   justify-content: center;
   margin: 5%;
 }
-.UXImg {
+.CardsImg {
   margin: 10%;
   max-width: 30%;
 }
-.designImg {
-  margin: 10%;
-  max-width: 30%;
-}
-.supportImg {
-  margin: 10%;
-  max-width: 30%;
-}
+
 
 .cardsContainer {
   background: #fcebfa;
@@ -110,6 +105,23 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 6% 10% 6% 10%;
+}
+.bodyImg{
+  max-width: 50%;
+}
+.picWithtxt{
+  margin: 10%;
+display: flex;
+align-items: center;
+gap: 100px;
+
+}
+.SecondpicWithtxt{
+  margin: 10%;
+  display: flex;
+  gap: 100px;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 @media screen {
@@ -129,4 +141,40 @@ p {
   .navList {
     font-size: 20px;
   }
+  @media screen and (max-width: 600px){
+.picWithtxt{
+  margin: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 70px;
+
+}
+.bodyImg{
+  max-width: 50%;
+}
+.SecondpicWithtxt{
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 400px;
+  justify-content: flex-end;
+  margin-right: 10px;
+  gap: 10px;
+  color: #0c1753;
+  font-family: Quicksand;
+  font-size: 10%;
+  font-weight: bold;
+}
+  }
+
+
 }
