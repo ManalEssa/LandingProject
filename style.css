@@ -124,6 +124,30 @@ gap: 100px;
   align-items: center;
 }
 
+form{
+  background: #0c1753;
+  font-family: Quicksand;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formLabels{
+margin: 2% 2% 2% 5%;
+
+
+}
+.smallLogo{
+  max-width: 50%;
+  width: 10%;
+}
+footer{
+  display: flex; 
+  color: #0c1753;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
 @media screen {
   .firstPart {
     flex-direction: column-reverse;
