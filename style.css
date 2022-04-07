@@ -9,7 +9,6 @@ body {
 /* for the navabar picture and list*/
 .navBar {
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   display: flex;
   justify-content: space-between;
 }
@@ -183,7 +182,6 @@ textarea {
 
 footer {
   display: flex;
-  color: #0c1753;
   justify-content: space-between;
   align-items: center;
   margin: 3%;
@@ -215,10 +213,12 @@ footer {
   color: #5566c5;
 }
 
-.socialMediaPic{
-  width: 20%;
-
+i{
+  font-size: 40px ;
+color: #0c1753;
+margin-right:10px;
 }
+
 .endFooter{
 display: flex;
 background: linear-gradient(
@@ -235,7 +235,7 @@ color: white;
   font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .firstPart {
     flex-direction: column-reverse;
     font-size: small;
@@ -292,7 +292,7 @@ color: white;
     gap: 8px;
     flex-direction: column;
     font-size: 10%;
-    margin: 5% 0% 5% 20%;
+    margin: 5% 0% 5% 22%;
   }
 
   .contactForm {
@@ -327,7 +327,7 @@ color: white;
   width: 50%;
 
 }
-.socialMediaPic{
+.i{
   width: 15%;
 
 }
@@ -337,3 +337,6 @@ color: white;
 }
 
 }
+
+
+
